@@ -266,7 +266,7 @@ button,input,select,textarea,label{font-size:18px;line-height:27px}
 @media (min-width:1025px){.header-shape-1{left:auto;right:0}
 .header-shape-2{left:auto;right:38%}
 }
-.hero{text-align:center;padding-top:40px}
+.hero{padding-top:40px}
 .hero-paragraph{font-size:20px;line-height:30px;letter-spacing:-0.1px;margin-bottom:40px}
 @media (min-width:641px){.hero-paragraph{font-size:22px;line-height:32px;letter-spacing:-0.1px}
 }

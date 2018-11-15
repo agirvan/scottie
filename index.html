@@ -10,6 +10,13 @@
     <link rel="stylesheet" href="dist/css/style.css">
 	<script src="https://unpkg.com/animejs@2.2.0/anime.min.js"></script>
     <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="http://richhollis.github.com/vticker/downloads/jquery.vticker.js?v=1.21"></script>
+	<script>
+	  $(function() {
+	    $('#title').vTicker('init', {mousePause:false, pause:3800,});
+	  });
+	</script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129110763-1"></script>
 <script>
@@ -122,8 +129,18 @@ window.cookieconsent.initialise({
                 <div class="container">
                     <div class="hero-inner">
 						<div class="hero-copy">
-	                        <h1 class="hero-title mt-0">Beautiful websites for theatre makers</h1>
-	                        <p class="hero-paragraph">We're creating a platform that helps artists connect with their audiences.</p>
+	                        <h1 class="hero-title mt-0" style="margin-bottom: -4px;">Beautiful websites for</h1>
+	                    	<div id="title">
+	                    		<ul>
+    								<li><h1 class="hero-title mt-0">theatre makers</h1></li>
+    								<li><h1 class="hero-title mt-0">producers</h1></li>
+    								<li><h1 class="hero-title mt-0">events</h1></li>
+    								<li><h1 class="hero-title mt-0">venues</h1></li>
+    								<li><h1 class="hero-title mt-0">festivals</h1></li>
+    								<li><h1 class="hero-title mt-0">agencies</h1></li>
+								</ul>
+							</div>
+	                        <p class="hero-paragraph" style="margin-top: 20px;">We're creating a platform that helps artists connect with their audiences.</p>
 							<div class="hero-form field field-grouped">
    								 <a class="button button-primary button-block" href="https://www.twitter.com/wearescottie" target="_blank">Join us for the journey</a>
 							</div>
